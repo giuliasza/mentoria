@@ -1,6 +1,42 @@
 *{
-    background-color: white;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Bamboy'; 
+  src: url('fonts/BamboyTrial-Condensed.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kirana';
+    src: url(fonts/KIRANAbold.ttf) format(truetype);
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('/imgs/young-girl-spending-weekend-movie-theater.jpg');
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    color: #f5deb3;
+    font-family: 'Kirana', sans-serif; 
+    font-size: 10rem;
+    width: auto;
+    margin-top: 10%;
+}
+
+.hero p{
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #f5deb3;
+    font-size: 3rem;
 }
