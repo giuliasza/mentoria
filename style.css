@@ -4,8 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 @font-face {
-  font-family: 'Bamboy'; 
+  font-family: 'Bamboy';
   src: url('fonts/BamboyTrial-Condensed.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -27,10 +28,10 @@
 
 .hero h1{
     color: #f5deb3;
-    font-family: 'Kirana', sans-serif; 
-    font-size: 10rem;
+    font-family: 'Kirana', sans-serif;
+    font-size: 6rem;
     width: auto;
-    margin-top: 10%;
+    margin-top: 5rem;
 }
 
 .hero p{
@@ -38,5 +39,47 @@
     font-weight: 700;
     font-style: normal;
     color: #f5deb3;
-    font-size: 3rem;
+    font-size: 1.5rem;
+}
+
+.sobre-produto {
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-produto p{
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1c0b19;
+    font-size: 2rem;
+    margin: 4rem 3rem 4rem 3rem;
+}
+
+.card-1{
+    background-color: #f1f7ed;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+}
+.card-2{
+    background-color: #b26e63;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+}
+.card-3{
+    background-color: #cc998d;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+}
+.card-4{
+    background-color: #1c0b19;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
 }
