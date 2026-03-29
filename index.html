@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
 
@@ -15,6 +16,12 @@
         <section class="hero">
             <h1>ENTRAÍ</h1>
             <p>O hub dos grandes eventos. </p>
+        </section>
+        <section>
+            <h1>QR Code Generator</h1>
+            <input type="text" id="texto" placeholder="Cole seu link aqui">
+            <button id="btn-gerar" onclick="gerarQR()">Gerar</button>
+            <div id="qrcode"></div>
         </section>
         <section class="sobre-produto">
             <p>A Entraí é uma plataforma de ticketing robusta, projetada sob o paradigma de sistemas resilientes e escaláveis. O projeto foca em resolver o desafio clássico de concorrência em inventários finitos e processamento de dados em tempo real.</p>
@@ -46,6 +53,7 @@
     <ul>Integração com Calendários: Implementar o envio de arquivos .ics por e-mail e integração via API para sincronização automática.</ul>
     <ul>Webhooks & Notificações: Sistema de e-mails transacionais (via SendGrid ou Mailgun) confirmando a compra e enviando o PDF do ingresso.</ul>
     <ul>Modo Offline (PWA): O organizador pode precisar validar ingressos em um local com internet instável.</ul>
+    <script src="/script.js"></script>
 </body>
 
 </html>
